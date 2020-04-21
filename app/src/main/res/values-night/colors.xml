@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+<!--    For nightmode colors-->
+    <color name="colorDefaultBackground">@android:color/background_dark</color>
+    <color name="colorPrimaryText">@android:color/primary_text_dark</color>
+    <color name="colorSecondaryText">@android:color/secondary_text_dark</color>
+</resources>

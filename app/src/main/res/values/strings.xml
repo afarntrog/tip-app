@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Activity Titles (Note: Main Activity uses the app name) -->
+    <string name="app_name">Tip Calculator</string>
+    <string name="title_activity_results">Results</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Multiple Activities -->
+    <string name="background_image">background image</string>
+    <string name="action_about">About</string>
+    <string name="about_dialog_title">About Tip Calculator</string>
+    <string name="about_dialog_banner"><![CDATA[Created and © 2015–2019 Samuel A.\nEMail: mintedtech@gmail.com\n\nThank you to:\nTouro College\'s Lander College MCO 451 students for their thoughts and ideas.]]></string>
+
+    <!-- Main Activity -->
+    <string name="banner_message">Please input the numbers.</string>
+    <string name="action_settings">Settings</string>
+    <string name="payers">Payers:</string>
+    <string name="subtotal">Subtotal:</string>
+    <string name="tip_percent">Tip Percent:</string>
+    <string name="percent_sign">%</string>
+    <string name="tax_amount">Tax Amount:</string>
+    <string name="action_clear_field">Clear Field</string>
+    <string name="action_reset_all">Reset All</string>
+    <string name="action_calculate">Go!</string>
+    <string name="tip_colon_space">"Tip: "</string>
+    <string name="show_full_results">Show Full Results</string>
+    <string name="dollar_sign">$</string>
+    <string name="space"> </string>
+    <string name="zero_point_zero_zero">0.00</string>
+
+    <string name="defaultPayers">1</string>
+
+    <string name="hint_subtotal">72.00</string>
+    <string name="hint_tip_percent">20.00</string>
+    <string name="hint_tax_amount">0.00</string>
+    <string name="hint_payers">1</string>
+
+    <!-- Keypad -->
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="six">6</string>
+    <string name="five">5</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="period">.</string>
+    <string name="backspace">⌫</string>
+
+    <!-- Error strings -->
+    <string name="error_keypad_decimal_point_not_allowed_here">A decimal point cannot be placed here.</string>
+    <string name="error_calc_subtotal_must_not_be_blank_or_zero">Subtotal must be non-zero and non-blank</string>
+
+
+    <!-- Results Activity -->
+    <string name="results_header_per_payer">Per Payer</string>
+    <string name="results_payers">Payer(s)</string>
+    <string name="results_header_total">Total</string>
+    <string name="results_amount">Amount</string>
+    <string name="results_percentage">Percent</string>
+    <string name="results_tip">Tip</string>
+    <string name="results_tax">Tax</string>
+    <string name="results_subtotal">Subtotal</string>
+    <string name="results_total">Total</string>
+
+    <!-- Settings Activity-->
+
+    <!-- Preference Fragments -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_display">Display</string>
+    <string name="pref_header_local">Local</string>
+
+    <!-- Preferences -->
+    <string name="showBackgroundKey">ShowBackground</string>
+    <string name="showBackgroundSummary">Enable the background image</string>
+    <string name="showBackgroundSummaryOn">Use an image background</string>
+    <string name="showBackgroundSummaryOff">Use a plain background</string>
+    <string name="showBackgroundTitle">Show Background Image</string>
+    <string name="showBackgroundDefaultValue">true</string>
+    <string name="showBackgroundSwitchTextOn">On</string>
+    <string name="showBackgroundSwitchTextOff">Off</string>
+    <string name="useAutoNightModeKey">AutoNightMode</string>
+    <string name="useAutoNightModeSummary">Use Night Mode at night</string>
+    <string name="useAutoNightModeSummaryOn">Use night/dark colors at night</string>
+    <string name="useAutoNightModeSummaryOff">Use normal/light colors always</string>
+    <string name="useAutoNightModeSwitchTextOn">On</string>
+    <string name="useAutoNightModeSwitchTextOff">Off</string>
+    <string name="useAutoNightModeDefaultValue">true</string>
+    <string name="useAutoNightModeSwitchTitle">Auto-Night Mode</string>
+    <string name="useAutoCalculateKey">AutoCalculate</string>
+    <string name="useAutoCalculateSummary">Calculate without needing to press the button</string>
+    <string name="useAutoCalculateSummaryOn">Use Auto-Calculate</string>
+    <string name="useAutoCalculateSummaryOff">Button press needed to calculate</string>
+    <string name="useAutoCalculateSwitchTextOn">On</string>
+    <string name="useAutoCalculateSwitchTextOff">Off</string>
+    <string name="useAutoCalculateDefaultValue">false</string>
+    <string name="useAutoCalculateSwitchTitle">Auto-Calculate</string>
+    <string name="defaultTaxPercentageKey">DefaultTaxPercentage</string>
+    <string name="defaultTaxPercentageTitle">Default Tax Percentage</string>
+    <string name="defaultTaxPercentageDefaultValue">10.00</string>
+    <string name="defaultTipPercentageKey">DefaultTipPercentage</string>
+    <string name="defaultTipPercentageTitle">Default Tip Percentage</string>
+    <string name="defaultTipPercentageDefaultValue">20.00</string>
+    <string name="default_payers">1</string>
+    <string name="hint_tip_pct">20.00</string>
+
+    <!-- Preference Titles -->
+
+</resources>

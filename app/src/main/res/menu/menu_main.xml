@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tipcalculator.activities.MainActivity">
+
+    <!--app:showAsAction="ifRoom|withText" means if there is room then show with text on toolbar show in toolbar
+    if there is no room then show in menu-->
+    <item
+        android:id="@+id/menu_clearField"
+        android:icon="@drawable/ic_clear_white"
+        android:title="@string/action_clear_field"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/menu_calculate"
+        android:icon="@drawable/ic_launch_white"
+        android:title="@string/action_calculate"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/menu_resetAll"
+        android:icon="@drawable/ic_clear_all_white"
+        android:title="@string/action_reset_all"
+        app:showAsAction="ifRoom|withText"/>
+
+    <!--app:showAsAction="never" means never show in toolbar. Always be in overflow menu-->
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+
+    <item
+        android:icon="@drawable/ic_info_white"
+        android:title="@string/action_about"
+        app:showAsAction="never"
+        android:onClick="showAbout"/>
+</menu>

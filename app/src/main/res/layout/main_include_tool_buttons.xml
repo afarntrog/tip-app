@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:alpha=".9"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:showIn="@layout/content_main">
+
+    <LinearLayout
+        style="@style/Widget.AppCompat.ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/buttonBar_margin"
+        android:background="@color/colorPrimary"
+        android:divider="?android:dividerVertical"
+        android:dividerPadding="@dimen/divider_padding"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <Button
+            style="@style/borderlessButtonStyle.ToolButtonStyle"
+            android:onClick="cmdClearCurrent"
+            android:text="@string/action_clear_field"/>
+
+        <Button
+            style="@style/borderlessButtonStyle.ToolButtonStyle"
+            android:onClick="cmdResetAll"
+            android:text="@string/action_reset_all"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

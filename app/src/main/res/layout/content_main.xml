@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activities.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <!-- This ImageView is used to optionally show a background image
+     We need an ID in order to get a handle to it in the Activity's Java code
+     -->
+
+    <!-- Background image -->
+    <include layout="@layout/multi_include_background_image"/>
+
+    <include layout="@layout/main_include_all_content"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

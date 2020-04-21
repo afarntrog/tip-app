@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:showIn="@layout/content_results">
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            style="@style/fieldsTextView.resultsHeader"
+            android:layout_span="2"
+            android:text="@string/results_payers"/>
+
+        <TextView
+            android:id="@+id/results_payers_amount"
+            style="@style/fieldsTextView.resultsDataNormal"/>
+
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            style="@style/fieldsTextView.resultsDataNormal"
+            android:layout_span="3"/>
+
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            style="@style/fieldsTextView.resultsHeader"
+            android:text="@string/results_subtotal"/>
+
+        <TextView
+            style="@style/fieldsTextView.resultsHeader"
+            android:text="@string/results_header_per_payer"/>
+
+        <TextView
+            style="@style/fieldsTextView.resultsHeader"
+            android:text="@string/results_header_total"/>
+
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            style="@style/fieldsTextView.resultsDataNormal"
+            android:text="@string/results_amount"/>
+
+
+        <TextView
+            android:id="@+id/results_subtotal_per_person_amount"
+            style="@style/fieldsTextView.resultsDataItalic"/>
+
+        <TextView
+            android:id="@+id/results_subtotal_amount"
+            style="@style/fieldsTextView.resultsDataNormal"/>
+
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            style="@style/fieldsTextView.resultsDataNormal"
+            android:layout_span="3"/>
+
+    </TableRow>
+
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            style="@style/fieldsTextView.resultsHeader"
+            android:text="@string/results_tip"/>
+
+        <TextView
+            style="@style/fieldsTextView.resultsHeader"
+            android:text="@string/results_header_per_payer"/>
+
+        <TextView
+            style="@style/fieldsTextView.resultsHeader"
+            android:text="@string/results_header_total"/>
+
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            style="@style/fieldsTextView.resultsDataNormal"
+            android:text="@string/results_percentage"/>
+
+        <TextView
+            android:id="@+id/results_tip_percentage_amount"
+            style="@style/fieldsTextView.resultsDataNormal"
+            android:layout_span="2"/>
+
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            style="@style/fieldsTextView.resultsDataNormal"
+            android:text="@string/results_amount"/>
+
+
+        <TextView
+            android:id="@+id/results_tip_per_person_amount"
+            style="@style/fieldsTextView.resultsDataItalic"/>
+
+
+        <TextView
+            android:id="@+id/results_tip_total_amount"
+            style="@style/fieldsTextView.resultsDataNormal"/>
+
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            style="@style/fieldsTextView.resultsDataNormal"
+            android:layout_span="3"/>
+
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            style="@style/fieldsTextView.resultsHeader"
+            android:text="@string/results_tax"/>
+
+
+        <TextView
+            style="@style/fieldsTextView.resultsHeader"
+            android:text="@string/results_header_per_payer"/>
+
+
+        <TextView
+            style="@style/fieldsTextView.resultsHeader"
+            android:text="@string/results_header_total"/>
+
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            style="@style/fieldsTextView.resultsDataNormal"
+            android:text="@string/results_percentage"/>
+
+        <TextView
+            android:id="@+id/results_tax_percentage_amount"
+            style="@style/fieldsTextView.resultsDataNormal"
+            android:layout_span="2"/>
+
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            style="@style/fieldsTextView.resultsDataNormal"
+            android:text="@string/results_amount"/>
+
+
+        <TextView
+            android:id="@+id/results_tax_per_person_amount"
+            style="@style/fieldsTextView.resultsDataItalic"/>
+
+
+        <TextView
+            android:id="@+id/results_tax_total_amount"
+            style="@style/fieldsTextView.resultsDataNormal"
+            android:textSize="@dimen/textView_text_size"/>
+
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            style="@style/fieldsTextView.resultsDataNormal"
+            android:layout_span="3"/>
+
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            style="@style/fieldsTextView.resultsHeader"
+            android:text="@string/results_total"/>
+
+
+        <TextView
+            style="@style/fieldsTextView.resultsHeader"
+            android:text="@string/results_header_per_payer"/>
+
+        <TextView
+            style="@style/fieldsTextView.resultsHeader"
+            android:text="@string/results_header_total"/>
+
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            style="@style/fieldsTextView.resultsDataNormal"
+            android:text="@string/results_amount"/>
+
+
+        <TextView
+            android:id="@+id/results_total_per_person_amount"
+            style="@style/fieldsTextView.resultsDataItalic"/>
+
+
+        <TextView
+            android:id="@+id/results_total_amount"
+            style="@style/fieldsTextView.resultsDataNormal"/>
+
+    </TableRow>
+
+</TableLayout>

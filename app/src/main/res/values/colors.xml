@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#D81B60</color> <!-- This is for the pointer/cursor -->
+    <color name="colorPrimary">#3949ab</color>
+    <color name="colorPrimaryLight">#6f74dd</color>
+    <color name="colorPrimaryDark">#5680EC</color>
+
+    <color name="colorDefaultBackground">@android:color/background_light</color>
+    <color name="colorPrimaryText">@android:color/primary_text_light</color>
+    <color name="colorSecondaryText">@android:color/secondary_text_light</color>
+</resources>

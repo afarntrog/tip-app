@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:alpha=".8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:showIn="@layout/content_main">
+
+    <TableLayout style="@style/coloredTableLayout">
+
+        <TableRow style="@style/tableRowButtonBarStyle">
+
+            <Button
+                style="@style/borderlessButtonStyle.NumberPadButtonStyle"
+                android:text="@string/one" />
+
+            <Button
+                style="@style/borderlessButtonStyle.NumberPadButtonStyle"
+                android:text="@string/two" />
+
+            <Button
+                style="@style/borderlessButtonStyle.NumberPadButtonStyle"
+                android:text="@string/three" />
+
+        </TableRow>
+
+        <TableRow style="@style/tableRowButtonBarStyle">
+
+            <Button
+                style="@style/borderlessButtonStyle.NumberPadButtonStyle"
+                android:text="@string/four" />
+
+            <Button
+                style="@style/borderlessButtonStyle.NumberPadButtonStyle"
+                android:text="@string/five" />
+
+            <Button
+                style="@style/borderlessButtonStyle.NumberPadButtonStyle"
+                android:text="@string/six" />
+
+        </TableRow>
+
+        <TableRow style="@style/tableRowButtonBarStyle">
+
+            <Button
+                style="@style/borderlessButtonStyle.NumberPadButtonStyle"
+                android:text="@string/seven" />
+
+            <Button
+                style="@style/borderlessButtonStyle.NumberPadButtonStyle"
+                android:text="@string/eight" />
+
+            <Button
+                style="@style/borderlessButtonStyle.NumberPadButtonStyle"
+                android:text="@string/nine" />
+
+        </TableRow>
+
+        <TableRow style="@style/tableRowButtonBarStyle">
+
+            <Button
+                style="@style/borderlessButtonStyle.NumberPadButtonStyle"
+                android:text="@string/period" />
+
+            <Button
+                style="@style/borderlessButtonStyle.NumberPadButtonStyle"
+                android:text="@string/zero" />
+
+            <Button
+                style="@style/borderlessButtonStyle.NumberPadButtonStyle"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/ic_backspace_white"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="@string/backspace"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.cardview.widget.CardView>
